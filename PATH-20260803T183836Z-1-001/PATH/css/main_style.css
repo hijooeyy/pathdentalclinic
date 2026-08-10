@@ -1,0 +1,410 @@
+@charset "utf-8";
+
+/* webfont */
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: 'SUIT-Regular', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    color: 3F3833;
+}
+
+
+#wrap {
+    width: 1920px;
+    min-width: 1350px;
+}
+
+#header {
+    background-color: #FAF8F5;
+    width: 100%;
+    height: 80px;
+}
+
+.header_inner {
+    width: 1350px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gnb {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gnb li {
+    color: #66615C;
+    display: block;
+    margin: 30px;
+}
+
+#visual {
+    background: url(/PATH-20260803T183836Z-1-001/PATH/images/main/visual.jpg) no-repeat;
+    width: 1920px;
+    height: 730px;
+    position: relative;
+}
+
+.banner_text {
+    color: #FAF8F5;
+    position: absolute;
+    left: 450px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_text1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+.sub_title2 {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.why_text {
+    font-size: 18px;
+}
+
+#why_path {
+    background-color: #3D3733;
+    width: 1920px;
+    height: 860px;
+}
+
+.why_path_inner {
+    width: 1350px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.why_path_inner video {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.why_path_left {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.why_path_right {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: 90px;
+    right: 50px;
+}
+
+.why_path_text {
+    color: #FAF8F5;
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.container_text {
+    font-size: 18px;
+}
+
+#why_path_sub {
+    width: 1350px;
+    margin: 0 auto;
+    height: 590px;
+    padding: 90px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why_path_sub img {
+    display: block;
+    width: 350px;
+    height: 234px;
+}
+
+.sub_title1 {
+    font-weight: 800;
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+#treatments {
+    background: url(/PATH-20260803T183836Z-1-001/PATH/images/main/wavebg.jpg) no-repeat;
+    height: 850px;
+}
+
+.treatments_inner {
+    width: 1350px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.treatments_endo {
+    width: 420px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.treatments_endo img {
+    display: block;
+    width: 100%;
+    height: 420px;
+}
+
+.left_text,
+.right_text {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.treatments_sub {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.treatments_p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.btn {
+    font-weight: 500;
+    display: inline-block;
+    border: 1px solid #3D3733;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #3D3733;
+    color: #FAF8F5;
+}
+
+.treatments_implant {
+    display: block;
+    width: 420px;
+    height: 400px;
+    position: absolute;
+    bottom: 250px;
+    right: 50px;
+}
+
+.treatments_implant img {
+    display: block;
+    width: 100%;
+    height: 420px;
+}
+
+.treatments_text {
+    position: absolute;
+    top: 90px;
+    left: 545px;
+    text-align: left;
+}
+
+#faq {
+    background-color: #FAF8F5;
+    width: 1920px;
+    padding: 90px;
+    box-sizing: border-box;
+}
+
+.faq_inner {
+    width: 1350px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn2 a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.faq_img {
+    display: flex;
+    margin-top: 50px;
+}
+
+#todayspath{
+    background: url(/PATH-20260803T183836Z-1-001/PATH/images/main/todayspathbanner.jpg) no-repeat;
+    width: 1920px;
+    height: 300px;
+}
+
+.todayspath_text{
+    padding: 60px 0 0 400px;
+}
+
