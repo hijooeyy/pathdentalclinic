@@ -85,7 +85,7 @@ body {
 
 #wrap {
     /* width: 1920px; */
-    min-width: 1350px;
+    min-width: 1410px;
     overflow: hidden;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .header_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -144,7 +144,7 @@ body {
 }
 
 .banner_text {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     color: #FAF8F5;
     padding: 200px 0 0 0;
@@ -168,7 +168,7 @@ body {
 }
 
 .why_path_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -225,7 +225,7 @@ h2 {
 }
 
 #why_path_sub {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 590px;
     padding: 110px 110px 60px;
@@ -260,7 +260,7 @@ h2 {
 }
 
 .treatments_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -341,7 +341,7 @@ h2 {
 }
 
 .faq_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
 }
@@ -422,7 +422,7 @@ h2 {
 }
 
 .todayspath_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     padding: 80px 0 80px 125px;
@@ -440,7 +440,7 @@ h2 {
 }
 
 .place_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     padding: 100px 80px 80px;
@@ -462,7 +462,7 @@ h2 {
 }
 
 .contact_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     padding: 100px 0;
     box-sizing: border-box;
@@ -531,7 +531,7 @@ h2 {
 }
 
 .night_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     padding: 280px 0 50px 80px;
@@ -557,7 +557,7 @@ h2 {
 }
 
 .footer_inner {
-    width: 1350px;
+    width: 1410px;
     margin: 0 auto;
     height: 100%;
     padding: 30px 0;
